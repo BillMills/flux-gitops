@@ -5,8 +5,8 @@ metadata:
   name: app
   namespace: default
   annotations:
-    flux.weave.works/automated: "true"
-    flux.weave.works/tag.chart-image: glob:0.0.*
+    fluxcd.io/automated: "true"
+    filter.fluxcd.io/chart-image: glob:0.0.*
 spec:
   releaseName: myapp
   chart:
